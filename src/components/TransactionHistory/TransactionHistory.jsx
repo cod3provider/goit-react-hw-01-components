@@ -1,5 +1,6 @@
 import PropTypes from 'prop-types';
 import css from './TransactionHistory.module.css';
+import transactions from 'data/transactions.json';
 
 export const TransactionHistory = ({ items }) => {
   return (
@@ -14,7 +15,7 @@ export const TransactionHistory = ({ items }) => {
 
       <tbody>
         {items.map(
-          ({ id, type, amount, currency }, index) => {
+          ({ id, type, amount, currency } = transactions, index) => {
             let bgColor = index % 2 ? css.light : css.dark;
             return(
               <tr key={id} className={`${css.row} ${bgColor}`} key={id}>
