@@ -17,7 +17,7 @@ export const TransactionHistory = ({ items }) => {
           ({ id, type, amount, currency }, index) => {
             let bgColor = index % 2 ? css.light : css.dark;
             return(
-              <tr key={id} className={`${css.row} ${bgColor}`} key={id}>
+              <tr key={id} className={`${css.row} ${bgColor}`}>
                 <td className={css.type}>{type}</td>
                 <td>{amount}</td>
                 <td>{currency}</td>
