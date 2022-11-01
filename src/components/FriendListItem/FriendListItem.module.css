@@ -1,0 +1,32 @@
+.item {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  width: 250px;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.item:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+.online,
+.offline {
+  width: 20px;
+  height: 20px;
+  border-radius: 50px;
+}
+
+.online {
+  background: greenyellow;
+}
+
+.offline {
+  background: red;
+}
+
+.avatar {
+  margin: 0 15px;
+}

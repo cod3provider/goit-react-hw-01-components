@@ -1,0 +1,36 @@
+.table {
+  margin-top: 35px;
+  text-align: center;
+  color: #1a1c2f;
+  font-size: 18px;
+  box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+}
+
+.title {
+  padding: 15px;
+  color: whitesmoke;
+  background: rgba(30, 192, 215, 0.64);
+  text-transform: uppercase;
+  font-size: 16px;
+}
+
+.title th {
+  width: 200px;
+  padding: 15px;
+}
+
+.type {
+  text-transform: capitalize;
+}
+
+.row td {
+  padding: 15px;
+}
+
+.light {
+  background: whitesmoke;
+}
+
+.dark {
+  background: #e9edf3;
+}
