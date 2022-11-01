@@ -8,7 +8,7 @@ export const Profile = ({
   location,
   avatar,
   stats: { followers, views, likes },
-}) => (
+} = user) => (
   <div className={css.profile}>
     <div className={css.description}>
       <img
